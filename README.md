@@ -6,6 +6,14 @@ A Unity technical demo for interactive modular construction, automatic connectio
 
 ## Preview
 
+### One block changes the connection
+
+Add one block in the upper-center gap: **38 → 39 blocks**. The roof joins across the gap, and the supports reshape into an arch. Same camera, one build action.
+
+| Before | After adding one block |
+| --- | --- |
+| ![Complex layout before](Media/04-complex-before.png) | ![Complex layout after](Media/05-complex-after.png) |
+
 ### 1. Base layout
 ![Base layout](Media/01-base.png)
 
