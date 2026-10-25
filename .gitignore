@@ -46,3 +46,7 @@ __pycache__/
 *.key
 *.pfx
 *.keystore
+
+# Internal working documents remain local
+/Docs/*.md
+/reconstruction/*.md
