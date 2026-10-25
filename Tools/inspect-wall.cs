@@ -1,0 +1,1 @@
+var b=UnityEngine.Object.FindFirstObjectByType<TownStudy.Builder.BuilderController>();return string.Join("\n",System.Linq.Enumerable.Select(System.Linq.Enumerable.Where(b.GetComponentsInChildren<UnityEngine.MeshRenderer>(),r=>r.name.StartsWith("SourceModule")&&r.transform.position.x==-3.5f&&r.transform.position.y==.5f),r=>r.name+" "+r.bounds));

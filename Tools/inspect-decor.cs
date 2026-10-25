@@ -1,0 +1,1 @@
+var b=UnityEngine.Object.FindFirstObjectByType<TownStudy.Builder.BuilderController>(); if(b.Board==null)b.Initialize();var d=b.Board.Solver.SelectDecor(b.Board.Tiles,b.Board.Seed);return new {slots=b.Board.Tiles.Count,decor=System.Linq.Enumerable.Sum(d.Values,v=>v.Count),props=b.propMeshes.Length,children=b.transform.Find("Generated").childCount};

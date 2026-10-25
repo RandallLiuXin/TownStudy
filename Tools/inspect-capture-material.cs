@@ -1,0 +1,1 @@
+var b=UnityEngine.Object.FindFirstObjectByType<TownStudy.Builder.BuilderController>();return new {shader=b.sourceHouse.shader.name,raw=b.sourceHouse.GetFloat("_Raw"),palette=b.sourceHouse.GetTexture("_Palette").name,roof=b.sourceHouse.GetVector("_RoofColor"),occlusion=b.sourceHouse.GetFloat("_Occlusion")};

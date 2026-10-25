@@ -1,0 +1,1 @@
+var b=UnityEngine.Object.FindFirstObjectByType<TownStudy.Builder.BuilderController>();var windows=System.Linq.Enumerable.Where(b.GetComponentsInChildren<UnityEngine.MeshRenderer>(),r=>r.name.Contains("Window"));return string.Join("\n",System.Linq.Enumerable.Select(windows,r=>r.name+" pos="+r.transform.position+" bounds="+r.bounds+" rot="+r.transform.eulerAngles));

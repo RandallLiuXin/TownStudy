@@ -1,0 +1,1 @@
+var b=UnityEngine.Object.FindFirstObjectByType<TownStudy.Builder.BuilderController>(); return new {playing=UnityEditor.EditorApplication.isPlaying,texture=b.sourceHouse.GetTexture("_BaseColorMap").name,backdrop=UnityEngine.GameObject.Find("Aniimo Gradient Backdrop")!=null,assembly=typeof(SourceSceneSetup).Assembly.Location};

@@ -1,0 +1,1 @@
+var m=UnityEngine.InputSystem.Mouse.current;var b=UnityEngine.Object.FindFirstObjectByType<TownStudy.Builder.BuilderController>();UnityEngine.InputSystem.InputSystem.QueueStateEvent(m,new UnityEngine.InputSystem.LowLevel.MouseState{position=b.view.WorldToScreenPoint(new UnityEngine.Vector3(3,2,0))});return "Cursor moved";
